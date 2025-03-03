@@ -1,7 +1,6 @@
 import { BudgetForm } from "./components/BudgetForm";
 import { useContext, useEffect } from 'react';
 import { BudgetStateContext } from './context/BudgetContext';
-
 import ExpenseModal from "./components/ExpenseModal";
 import { ExpenseList } from "./components/ExpenseList";
 import { FilterByCategory } from "./components/FilterByCategory";
